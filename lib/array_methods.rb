@@ -1,7 +1,7 @@
 def using_include(array, element)
 array = [array, element]
 
-array.include?("dog")
+array.include?(element)
 
 end
 
